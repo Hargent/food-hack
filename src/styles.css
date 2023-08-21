@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Ubuntu:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+    @apply relative bg-white rounded overflow-hidden shadow-md transition ease-in-out duration-500 hover:shadow-lg hover:scale-105 
+}
+.badge{
+    @apply absolute bg-secondary-100 text-secondary-200 text-xs font-bold rounded-full p-2  top-0 left-0 ml-2 mt-2 flex items-center justify-between gap-2
+}
+.header{
+    @apply font-bold mt-12 pb-2 border-b border-gray-200 
+}
+.btn{
+    @apply rounded-full py-2 px-3 text-xs uppercase font-bold cursor-pointer tracking-wider drop-shadow-lg transition-all hover:shadow-none hover:bg-primary hover:text-white
+}
+.nav-item{
+    @apply flex items-center justify-end px-4 border-r-4
+}
